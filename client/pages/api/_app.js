@@ -1,7 +1,8 @@
 import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import '../client/lib/hexStyles.css'
 
-function MyApp({ Component, pageProps }: AppProps) {
+
+function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
 
